@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c96be877-71f5-4bfe-8aa4-26421a422c1d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/itoken-admin/itoken-admin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common-service/src/main/resources/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common-service/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-dependencies/itoken-dependencies.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-eureka/itoken-eureka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/itoken-service-admin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-zipkin/itoken-zipkin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-zuul/itoken-zuul.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-zuul/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/itoken-admin/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-common/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-common-domain/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-common-web/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-config/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-common-service/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-dependencies/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-service-admin/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-service-redis/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-service-posts/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-web-postsss/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-web-admin/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-service-sso/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-zipkin/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-web-posts/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-service-upload/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-web-backend/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-service-digiccy/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-333180553">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1875160985">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="60" />
+          <entry key="java" value="74" />
+          <entry key="js" value="3" />
+          <entry key="pom" value="1" />
+          <entry key="xml" value="18" />
+          <entry key="yml" value="58" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="60" />
+          <entry key="JAVA" value="74" />
+          <entry key="JavaScript" value="3" />
+          <entry key="XML" value="19" />
+          <entry key="YAML" value="58" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="25" />
+          <entry key="html" value="88" />
+          <entry key="java" value="704" />
+          <entry key="txt" value="56" />
+          <entry key="xml" value="64" />
+          <entry key="yml" value="84" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="88" />
+          <entry key="JAVA" value="704" />
+          <entry key="PLAIN_TEXT" value="81" />
+          <entry key="XML" value="64" />
+          <entry key="YAML" value="84" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-service-digiccy/src/main/java/com/funtl/itoken/service/digiccy/controller/DigiccyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/itoken-common-service/src/main/resources/generator/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fast</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/itoken-common-service" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../GitMaYun/initalizr-start" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/hello-world" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/initalizr-start" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/micro-weather-basic" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/micro-weather-config-server" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/micro-weather-eureka-client" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/micro-weather-eureka-client-feign" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/micro-weather-eureka-client-feign-hystrix" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/micro-weather-eureka-client-zuul" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/micro-weather-eureka-server" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/micro-weather-quartz" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/micro-weather-redis" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/micro-weather-report" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/msa-weather-city-server" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/msa-weather-collection-eureka" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/msa-weather-collection-server" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/msa-weather-data-eureka" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/msa-weather-data-server" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/msa-weather-report-eureka-hystrix" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../GitMaYun/spring-cloud-weather/msa-weather-report-server" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../桌面/session-redis" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/itoken-service-posts/src/main/resources/bootstrap-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-service-posts/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/main/java/com/funtl/itoken/common/web/utils/HttpServletUtils.java" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/main/java/com/funtl/itoken/common/web/service/BaseClientService.java" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/java/com/funtl/itoken/web/posts/service/PostsService.java" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/java/com/funtl/itoken/web/posts/service/fallback/PostsServiceFallback.java" />
+        <option value="$PROJECT_DIR$/itoken-common-web/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/main/java/com/funtl/itoken/common/web/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/main/java/com/funtl/itoken/common/web/components/datatables/DataTablesResult.java" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/resources/templates/index1.html" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/main/resources/templates/includes/footer.html" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/main/resources/templates/includes/head.html" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/main/resources/templates/includes/header.html" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/main/resources/templates/includes/menu.html" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/resources/templates/includes/menu.html" />
+        <option value="$PROJECT_DIR$/itoken-service-posts/src/main/java/com/funtl/itoken/service/posts/controller/PostsController.java" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/src/main/java/com.funtl.itoken.service.upload/ServiceUploadApplication.java" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/src/main/resources/bootstrap-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-config-respo/respo/itoken-service-redis-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/src/main/java/com.funtl.itoken.service.upload/fastdfs/StorageService.java" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/src/main/java/com.funtl.itoken.service.upload/fastdfs/FastDFSStorageService.java" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/src/main/java/com.funtl.itoken.service.upload/fastdfs/StorageFactory.java" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/src/main/java/com.funtl.itoken.service.upload/fastdfs/FastDFSConfiguration.java" />
+        <option value="$PROJECT_DIR$/itoken-config-respo/respo/itoken-service-upload-dev.yml" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/src/main/java/com.funtl.itoken.service.upload/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/java/com/funtl/itoken/web/posts/controller/PostsController.java" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/main/resources/templates/includes/foot.html" />
+        <option value="$PROJECT_DIR$/itoken-config-respo/respo/itoken-service-upload-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-config-respo/respo/itoken-web-admin-dev.yml" />
+        <option value="$PROJECT_DIR$/itoken-config-respo/respo/itoken-web-backend-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-config-respo/respo/itoken-web-backend-dev.yml" />
+        <option value="$PROJECT_DIR$/itoken-web-backend/src/main/resource/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/itoken-web-backend/src/main/resource/bootstrap-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-web-backend/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/backend/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/backend/config/WebAdminInterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/backend/interceptor/WebAdminInterceptor.java" />
+        <option value="$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/backend/interceptor/WebPostsInterceptor.java" />
+        <option value="$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/backend/config/WebBackendInterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/backend/interceptor/WebBackendInterceptor.java" />
+        <option value="$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/backend/WebBackendApplication.java" />
+        <option value="$PROJECT_DIR$/itoken-zuul/src/main/java/com/funtl/itoken/zuul/ZuulApplication.java" />
+        <option value="$PROJECT_DIR$/itoken-config-respo/respo/itoken-zuul-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-zuul/src/main/resources/bootstrap-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-service-digiccy/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-service-digiccy/src/main/java/com/funtl/itoken/service/digiccy/ServiceDigiccyApplication.java" />
+        <option value="$PROJECT_DIR$/itoken-service-digiccy/src/main/java/com/funtl/itoken/service/digiccy/controller/DigiccyController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itoken-common-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itoken-common-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itoken-common-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="360" />
+    <option name="y" value="85" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>AccessibilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Ant</id>
+          </State>
+          <State>
+            <id>Bidirectional TextInternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flowJava</id>
+          </State>
+          <State>
+            <id>Data flowJavaScript</id>
+          </State>
+          <State>
+            <id>Dependency issuesJava</id>
+          </State>
+          <State>
+            <id>EncapsulationJava</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>FreeMarker</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Gradle</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>InitializationJava</id>
+          </State>
+          <State>
+            <id>InternationalizationJava</id>
+          </State>
+          <State>
+            <id>InternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JBoss Seam</id>
+          </State>
+          <State>
+            <id>JPA</id>
+          </State>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java EE</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaBeans issuesJava</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>LintLintAndroid</id>
+          </State>
+          <State>
+            <id>MemoryJava</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>PortabilityJava</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsGradle</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Properties FilesJava</id>
+          </State>
+          <State>
+            <id>Reactor</id>
+          </State>
+          <State>
+            <id>Resource managementJava</id>
+          </State>
+          <State>
+            <id>SecurityLintAndroid</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring SecuritySpring</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>UI Form</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>VisibilityJava</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-digiccy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-digiccy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-digiccy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-digiccy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-digiccy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="digiccy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-digiccy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="digiccy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-digiccy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-posts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-posts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-posts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-posts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-posts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\系统快捷路径\文档\GitLab\my-itoken\itoken-web-backend\src\main\resource\templates\includes" />
+      <recent name="F:\系统快捷路径\文档\GitLab\my-itoken\itoken-common-web\src\main\resources" />
+      <recent name="F:\系统快捷路径\文档\GitLab\my-itoken\itoken-web-posts\src\main\java\com\funtl\itoken\web\posts\service\fallback" />
+      <recent name="F:\系统快捷路径\文档\GitLab\my-itoken\itoken-web-posts\src\main\java\com\funtl\itoken\web\posts\service" />
+      <recent name="F:\系统快捷路径\文档\GitLab\my-itoken\itoken-web-posts\src\main\resources\templates" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\系统快捷路径\文档\GitLab\my-itoken\itoken-service-digiccy\src\main" />
+      <recent name="F:\系统快捷路径\文档\GitLab\my-itoken\itoken-service-digiccy" />
+      <recent name="F:\系统快捷路径\文档\GitLab\my-itoken\itoken-web-admin\src\main\resource\templates" />
+      <recent name="F:\系统快捷路径\文档\GitLab\my-itoken\itoken-zuul\src\main\resources" />
+      <recent name="F:\系统快捷路径\文档\GitLab\my-itoken\itoken-web-backend\src\main\java\com\funtl\itoken\web\backend" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.24412172" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.AdminApplication">
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itoken-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.itoken.admin.AdminApplication" />
+      <option name="ACTIVE_PROFILES" value="prod" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itoken-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.itoken.config.ConfigApplication" />
+      <option name="ACTIVE_PROFILES" value="prod" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itoken-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.itoken.eureka.EurekaApplication" />
+      <option name="ACTIVE_PROFILES" value="prod" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itoken-service-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.itoken.service.redis.RedisApplication" />
+      <option name="ACTIVE_PROFILES" value="prod" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itoken-service-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.itoken.service.admin.ServiceAdminApplication" />
+      <option name="ACTIVE_PROFILES" value="prod" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicePostsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itoken-service-posts" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.itoken.service.posts.ServicePostsApplication" />
+      <option name="ACTIVE_PROFILES" value="prod" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceSSOApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itoken-service-sso" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.itoken.service.sso.ServiceSSOApplication" />
+      <option name="ACTIVE_PROFILES" value="prod" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itoken-service-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.itoken.service.upload.ServiceUploadApplication" />
+      <option name="ACTIVE_PROFILES" value="prod" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itoken-web-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.itoken.web.admin.WebAdminApplication" />
+      <option name="ACTIVE_PROFILES" value="prod" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itoken-web-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.itoken.web.backend.WebBackendApplication" />
+      <option name="ACTIVE_PROFILES" value="prod" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebPostsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itoken-web-posts" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.itoken.web.posts.WebPostsApplication" />
+      <option name="ACTIVE_PROFILES" value="prod" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipKinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itoken-zipkin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.itoken.zipkin.ZipKinApplication" />
+      <option name="ACTIVE_PROFILES" value="prod" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itoken-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.itoken.zuul.ZuulApplication" />
+      <option name="ACTIVE_PROFILES" value="prod" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.RedisApplication" />
+      <item itemvalue="Spring Boot.ServiceAdminApplication" />
+      <item itemvalue="Spring Boot.ServicePostsApplication" />
+      <item itemvalue="Spring Boot.ServiceSSOApplication" />
+      <item itemvalue="Spring Boot.ServiceUploadApplication" />
+      <item itemvalue="Spring Boot.WebAdminApplication" />
+      <item itemvalue="Spring Boot.WebPostsApplication" />
+      <item itemvalue="Spring Boot.ZipKinApplication" />
+      <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.WebBackendApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration useDefault="false">D:\svn\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c96be877-71f5-4bfe-8aa4-26421a422c1d" name="Default Changelist" comment="" />
+      <created>1549765178865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549765178865</updated>
+      <workItem from="1549765180577" duration="226000" />
+      <workItem from="1549765615870" duration="14737000" />
+      <workItem from="1549847709421" duration="14109000" />
+      <workItem from="1549934745530" duration="8298000" />
+      <workItem from="1550021579225" duration="164000" />
+      <workItem from="1550027436735" duration="1220000" />
+      <workItem from="1550029698561" duration="51000" />
+      <workItem from="1550454474775" duration="599000" />
+    </task>
+    <task id="LOCAL-00001" summary="配置">
+      <created>1549792975830</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549792975831</updated>
+    </task>
+    <task id="LOCAL-00002" summary="配置">
+      <created>1549867645439</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549867645440</updated>
+    </task>
+    <task id="LOCAL-00003" summary="配置">
+      <created>1549875012710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549875012710</updated>
+    </task>
+    <task id="LOCAL-00004" summary="配置">
+      <created>1549875117374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549875117374</updated>
+    </task>
+    <task id="LOCAL-00005" summary="配置">
+      <created>1549877131221</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1549877131221</updated>
+    </task>
+    <task id="LOCAL-00006" summary="配置">
+      <created>1549877141174</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549877141174</updated>
+    </task>
+    <task id="LOCAL-00007" summary="配置">
+      <created>1549937372648</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1549937372648</updated>
+    </task>
+    <task id="LOCAL-00008" summary="配置">
+      <created>1549937565163</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1549937565163</updated>
+    </task>
+    <task id="LOCAL-00009" summary="配置">
+      <created>1549937945849</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1549937945849</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39404000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32388663" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32874617" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32874617" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32874617" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" weight="0.32874617" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.735474" />
+      <window_info anchor="bottom" id="Problems" order="17" weight="0.32874617" />
+      <window_info anchor="bottom" id="JRebel Executor" order="18" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.31106612" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3299595" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" weight="0.3299595" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28475034" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" order="0" />
+      <window_info anchor="bottom" id="JRebel Executor" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="18" visible="true" weight="0.50764525" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.15789473" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>HttpServletUtils.getFullPath(request)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/itoken-web-posts/src/main/resources/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-posts/src/main/resources/templates/includes/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config-respo/respo/itoken-web-admin-prod.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/admin/config/WebAdminInterceptorConfig.java" />
+    <entry file="file://$PROJECT_DIR$/itoken-web-backend/src/main/resource/bootstrap-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="136" selection-start-line="4" selection-start-column="136" selection-end-line="4" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-posts/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1551">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-backend/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-backend/src/main/resource/templates/welcome.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/backend/interceptor/LoginInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/backend/config/WebInterceptorConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/itoken-web-backend/src/main/resource/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/backend/config/WebAdminInterceptorConfig.java" />
+    <entry file="file://$PROJECT_DIR$/itoken-config-respo/respo/itoken-web-admin-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-admin/src/main/java/com/funtl/itoken/web/admin/interceptor/WebAdminInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/backend/interceptor/WebAdminInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/backend/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config-respo/respo/itoken-common-hosts-dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config-respo/respo/itoken-common-hosts-prod.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-posts/src/main/java/com/funtl/itoken/web/posts/WebPostsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/backend/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/backend/WebBackendApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config-respo/respo/itoken-zuul-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config-respo/respo/itoken-web-backend-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config-respo/respo/itoken-web-backend-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-backend/src/main/resource/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-common-web/src/main/resources/templates/includes/header.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-common-web/src/main/resources/templates/includes/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="37" column="59" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/backend/config/WebBackendInterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring-cloud-netflix-itoken/itoken-zuul/src/main/java/com/funtl/itoken/zuul/ZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="19" lean-forward="true" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-backend/src/main/java/com/funtl/itoken/web/backend/interceptor/WebBackendInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-backend/src/main/resource/templates/includes/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config-respo/respo/itoken-zuul-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config-respo/respo/itoken-service-posts-dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-zipkin/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-zuul/src/main/java/com/funtl/itoken/zuul/ZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config-respo/respo/itoken-service-posts-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-zuul/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-zuul/src/main/resources/bootstrap-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-zipkin/src/main/resources/bootstrap-prod.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="75" column="55" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-admin/src/main/resource/templates/includes/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-digiccy/src/main/resources/mapper/TbSysUserExtendMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/itoken-service-digiccy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/funtl/itoken/service/admin/ServiceAdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-digiccy/src/main/java/com/funtl/itoken/service/digiccy/ServiceDigiccyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-posts/src/main/java/com/funtl/itoken/web/posts/controller/PostsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-posts/src/main/java/com/funtl/itoken/service/posts/controller/PostsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/funtl/itoken/service/admin/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-digiccy/src/main/java/com/funtl/itoken/service/digiccy/controller/DigiccyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-common-service/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>itoken1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

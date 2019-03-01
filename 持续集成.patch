@@ -1,0 +1,16 @@
+Index: respo/itoken-service-admin-dev.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- respo/itoken-service-admin-dev.yml	(revision 4398cae885fffa584076df298ff0f11d8ac7301f)
++++ respo/itoken-service-admin-dev.yml	(date 1548387753790)
+@@ -4,7 +4,7 @@
+   boot:
+     admin:
+       client:
+-        url: http://localhost:8084
++        url: http://localhost1:8084
+   zipkin:
+     base-url: http://localhost:9411
+   datasource:
